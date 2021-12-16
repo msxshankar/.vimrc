@@ -1,5 +1,5 @@
 # .vimrc
-A novice guide to setting up a .vimrc file in Vim/Neovim
+A novice guide to setting up a .vimrc file in Vim/Neovim. Check out the wiki for useful commands if you've followed the below steps!
 
 While this guide focuses primarily on Vim, it should work fine in Neovim. Take note of the below steps.
 
