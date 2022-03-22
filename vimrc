@@ -6,21 +6,23 @@ syntax on
 
 " Key remaps
 inoremap jj <Esc>
+nnoremap `` :q! <CR>
 nnoremap <space> :!
 nnoremap o o<esc>
 nnoremap O O<esc>
-nnoremap ww :w <CR>
+nnoremap ss :w <CR>
+nnoremap bn :bn <CR>
+nnoremap bf :bf <CR>
 
 " Level 2: Intermediate
 set wildmenu
 set wildmode=list:longest
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
+set incsearch
 
 " Run code from Vim/Neovim
 nnoremap py :w <CR>:!clear <CR>:!python3 % <CR>
 nnoremap gcc :w <CR>:!clear <CR>:!gcc % && ./a.out <CR>
-nnoremap mm :w <CR>:!clear <CR>:!make <CR>:!cd bin && ./library books.txt <CR>
-nnoremap ls :!ls <CR>
 
 " Level 3: Advanced
 
