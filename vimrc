@@ -6,6 +6,7 @@ syntax on
 
 " Key remaps
 inoremap jj <Esc>
+inoremap JJ <Esc>
 nnoremap `` :q! <CR>
 nnoremap <space> :!
 nnoremap o o<esc>
