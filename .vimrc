@@ -12,9 +12,14 @@ nnoremap <space> :!
 nnoremap o o<esc>
 nnoremap O O<esc>
 nnoremap ss :w <CR>
+nnoremap SS :w <CR>
 nnoremap bn :bn <CR>
 nnoremap bf :bf <CR>
 nnoremap ff :NERDTree <CR>
+
+"Indentation
+set tabstop = 4
+set shiftwidth = 4 
 
 " Level 2: Intermediate
 set wildmenu
@@ -31,10 +36,10 @@ nnoremap gcc :w <CR>:!clear <CR>:!gcc % && ./a.out <CR>
 " PLUGINS------------------------------------------------------------------{{{
 call plug#begin('~/.vim/plugged')
 
-	Plug 'srcery-colors/srcery-vim'
 	Plug 'morhetz/gruvbox'
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 	Plug 'preservim/nerdtree'
+	Plug 'tpope/vim-fugitive'
 
 call plug#end()
 
