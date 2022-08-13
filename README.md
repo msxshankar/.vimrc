@@ -3,6 +3,8 @@ A novice guide to setting up a .vimrc file in Vim/Neovim. Check out the wiki for
 
 While this guide focuses primarily on Vim, it should work fine in Neovim. Take note of the below steps.
 
+There is a simple version of vimrc called .vimrc-simple. This contains no plugins and focuses on key remaps. You can rename it to .vimrc or source it when you open vim.
+
 Neovim:
 
 Add these lines to your ~/.config/nvim/init.vim file. If you can't find it, make one!
@@ -26,9 +28,9 @@ The file is origanised in order of increasing complexity to implement (for a new
 
 Plugins:
 
-This guide is using VimPlug. To install it:
+This guide is using VimPlug. It should be installed by default. Otherwise, to install it:
 
-Vim: `
+Vim:
 
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
