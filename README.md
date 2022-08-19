@@ -78,6 +78,11 @@ Install Clangd (Ubuntu):
  sudo npm i --global coc-clangd
  ```
  
+ For automatic installation, you can add the extensions to a variable in your .vimrc
+ ```
+ let g:coc_global_extensions = ['coc-clangd']
+ ```
+ 
  For more informatin, refer to https://github.com/clangd/coc-clangd and https://github.com/clangd/coc-clangd/issues/61
  
 
